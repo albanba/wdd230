@@ -1,0 +1,64 @@
+body {
+    max-width: 960px; 
+    margin: 0 auto; 
+}
+
+
+header{
+    max-width: 800px; 
+    background-color: rgb(2, 2, 61);
+    display: grid;
+    grid-template-columns: 270px auto;
+    grid-template-rows: 300px;
+    
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+
+#image{
+    grid-column: 1;
+    
+}
+
+h1{
+    grid-column: 2;
+    
+}
+
+main{
+    justify-content: center 
+}
+
+h2{
+    font-size: 3em;
+}
+
+li{
+    font-size: 2em;
+}
+
+main p{
+    font-style: oblique;
+    font-size: 2em;
+}
+
+footer{
+    max-width: 800px; 
+    display: grid;
+    justify-content: center; 
+    background-color: rgb(2, 2, 61);
+}
+
+#one{
+    text-align:center;
+    color: white;
+    font-size: 1.5em;
+}
+
+#two{
+    text-align:center;
+    color: lightgreen;
+    font-size: 1.5em;
+}
