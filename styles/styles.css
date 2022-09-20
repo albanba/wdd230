@@ -5,7 +5,7 @@ body {
 
 
 header{
-    max-width: 800px; 
+    
     background-color: rgb(2, 2, 61);
     display: grid;
     grid-template-columns: 270px auto;
@@ -19,6 +19,8 @@ header{
 
 #image{
     grid-column: 1;
+    max-width: 100%;
+    display: block;
     
 }
 
@@ -28,6 +30,9 @@ h1{
 }
 
 main{
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center 
 }
 
@@ -45,7 +50,7 @@ main p{
 }
 
 footer{
-    max-width: 800px; 
+     
     display: grid;
     justify-content: center; 
     background-color: rgb(2, 2, 61);
