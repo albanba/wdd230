@@ -1,0 +1,48 @@
+@media (min-width: 32.5em){
+
+  h1 {
+      font-size: 1.7em;
+      margin: 0.67em 0;
+    }
+
+    #image{
+      grid-column: 1;
+      width: 256px;
+      height: 256px;
+      padding: 10px;
+      display: block;
+  }
+  
+  h2{
+    font-size: 1.7em;
+  }
+
+  li{
+    font-size: 1.7em;
+  }
+
+  main p{
+    font-style: oblique;
+    font-size: 1.7em;
+  }
+
+footer{
+     
+    display: grid;
+    justify-content: center; 
+    background-color: rgb(2, 2, 61);
+  }
+
+#one{
+    text-align:center;
+    color: white;
+    font-size: 1.7em;
+  }
+
+#two{
+    text-align:center;
+    color: lightgreen;
+    font-size: 1.7em;
+  }
+    
+}

@@ -8,8 +8,8 @@ header{
     
     background-color: rgb(2, 2, 61);
     display: grid;
-    grid-template-columns: 270px auto;
-    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr;
+    
     
     justify-items: center;
     align-items: center;
@@ -19,34 +19,35 @@ header{
 
 #image{
     grid-column: 1;
-    max-width: 100%;
+    width: 175px;
+    height: 175px;
+    padding: 10px;
     display: block;
-    
 }
 
 h1{
     grid-column: 2;
-    
+    font-size: 1em;
+    padding: 10px;
 }
 
 main{
     max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center 
+    justify-content: center; 
+    padding: 10px;
 }
 
 h2{
-    font-size: 3em;
+    font-size: 1em;
 }
 
 li{
-    font-size: 2em;
+    font-size: 1em;
 }
 
 main p{
     font-style: oblique;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 footer{
@@ -59,11 +60,11 @@ footer{
 #one{
     text-align:center;
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 #two{
     text-align:center;
     color: lightgreen;
-    font-size: 1.5em;
+    font-size: 1em;
 }
