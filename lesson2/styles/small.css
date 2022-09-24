@@ -11,3 +11,61 @@ header{
     color: white;
     padding: 10px;
 }
+
+header h2{
+
+    color: gold;
+}
+
+main{
+    display: grid;
+    max-width: 950px;
+    justify-content: center; 
+    padding: 5px;
+    background-color: rgb(185, 181, 172);
+}
+
+main h2{
+    background-color: rgb(13, 19, 19);
+    color: white;
+    font-size: 1.17em;
+    margin-block-end:  0;
+    line-height: 1.8;
+}
+
+main h3{
+    font-weight: normal;
+    margin-block:  0;
+    line-height: 1.8;
+}
+
+main a{
+
+    background-color: rgb(185, 181, 172);
+    margin-block:  0;
+    line-height: 1.8;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+     
+    display: grid;
+    justify-content: center; 
+    background-color: rgb(2, 2, 61);
+}
+
+#one{
+    text-align:center;
+    color: white;
+    font-size: 1em;
+}
+
+#two{
+    text-align:center;
+    color: gold;
+    font-size: 1em;
+}
