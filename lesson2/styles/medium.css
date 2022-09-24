@@ -1,0 +1,32 @@
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+   
+header h1{
+    
+    font-size: 2.5em;
+}
+
+header h2{
+
+    font-size: 2em;
+}
+
+main {
+    grid-template-columns: repeat(2, 1fr);
+}
+#first{
+    grid-column: 1;
+    margin: 5px;
+}
+#second{
+    grid-column: 2;
+    margin: 5px;
+
+}
+
+#third{
+    grid-column: 1 / span 2;
+}
+  
+
+  }

@@ -1,0 +1,31 @@
+@media screen and (min-width: 64em) {
+
+    header h1{
+    
+        font-size: 3em;
+    }
+    
+    header h2{
+    
+        font-size: 2.5em;
+    }
+    
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #first{
+        grid-column: 1;
+        margin: 5px;
+    }
+    #second{
+        grid-column: 2;
+        margin: 5px;
+    
+    }
+    
+    #third{
+        grid-column: 3;
+    }
+      
+
+}

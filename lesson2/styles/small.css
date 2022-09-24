@@ -1,6 +1,7 @@
 body {
     max-width: 960px; 
     margin: 0 auto; 
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -20,7 +21,6 @@ header h2{
 main{
     display: grid;
     max-width: 950px;
-    justify-content: center; 
     padding: 5px;
     background-color: rgb(185, 181, 172);
 }
@@ -29,8 +29,9 @@ main h2{
     background-color: rgb(13, 19, 19);
     color: white;
     font-size: 1.17em;
-    margin-block-end:  0;
+    margin-block-end: 0;
     line-height: 1.8;
+    font-weight: normal;
 }
 
 main h3{
@@ -47,8 +48,26 @@ main a{
 
 }
 
+main p{
+    text-align: justify;
+}
+
+#first{
+    display: grid;
+}
+
+#second{
+    display: grid;
+}
+
+#third{
+    display: grid;
+}
+
 img{
     max-width: 100%;
+    height: auto;
+    justify-self: center;
 }
 
 footer{
