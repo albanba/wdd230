@@ -13,6 +13,7 @@ header h2{
 
 main {
     grid-template-columns: repeat(2, 1fr);
+    
 }
 #first{
     grid-column: 1;

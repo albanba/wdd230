@@ -20,6 +20,7 @@ header h2{
 
 main{
     display: grid;
+    row-gap: 5px;
     max-width: 950px;
     padding: 5px;
     background-color: rgb(185, 181, 172);
@@ -52,9 +53,7 @@ main p{
     text-align: justify;
 }
 
-div {
-    display: grid;
-}
+
 
 img{
     max-width: 100%;
