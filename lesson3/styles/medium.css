@@ -1,0 +1,50 @@
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+  h1 {
+      font-size: 1.7em;
+      margin: 0.67em 0;
+    }
+
+      
+  h2{
+    font-size: 1.7em;
+  }
+
+  nav div {
+    flex: 1 1 auto;
+  }
+
+  nav {
+    display: flex;
+		flex-direction: row;
+	}
+	
+	nav a {
+    font-size: 0.70em;
+  }
+
+  main p{
+    
+    font-size: 1.7em;
+  }
+
+footer{
+     
+    display: grid;
+    justify-content: center; 
+    background-color: rgb(2, 2, 61);
+  }
+
+#one{
+    text-align:center;
+    color: white;
+    font-size: 1.7em;
+  }
+
+#two{
+    text-align:center;
+    color: lightgreen;
+    font-size: 1.7em;
+  }
+    
+}
