@@ -6,6 +6,19 @@ body {
     
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 h1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -20,17 +33,6 @@ h3 {
     
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-a{
-    font-family: 'Montserrat', sans-serif;
-}
-
-li {
-    font-family: 'Montserrat', sans-serif;
-}
 
 header{
     
