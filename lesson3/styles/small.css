@@ -3,13 +3,34 @@
 body {
     max-width: 960px; 
     margin: 0 auto; 
+    
+}
+
+h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+}
 
 header{
     
-    background-color: rgb(2, 2, 61);
+    background-color: #1C2C41;
     max-width: 960px; 
     text-align: center;
     color: white;
@@ -26,12 +47,12 @@ nav a {
 }
 
 nav a:hover {
-	color: gold;
+	color: #C2981E;
 }
 
 
 h1{
-    color: gold;
+    color: #C2981E;
     font-size: 1em;
     padding: 10px;
 }
@@ -46,17 +67,66 @@ h2{
     font-size: 1.25em;
 }
 
+#colors {
+    display: flex;
+    flex-direction: column;
+        
+}
+
+#colors p{
+    flex: 1 1 auto;
+}
+
+#blue{
+    padding: 1.5em;
+    background-color: #1C2C41;
+    color: #fff;
+    font-weight: bold;
+    border: solid black;
+    
+}
+
+#white{
+    padding: 1.5em;
+    background-color: #FDFAFA;
+    color: black;
+    font-weight: bold;
+    border: solid;
+}
+
+#brown{
+    padding: 1.5em;
+    background-color: #2B1F1A;
+    color: white;
+    font-weight: bold;
+    border: solid black;
+}
+
+#yellow{
+    padding: 1.5em;
+    background-color: #C2981E;
+    color: black;
+    font-weight: bold;
+    border: solid;
+}
 
 
 main p{
    font-size: 0.90em;
 }
 
+main h2{
+    display: block;
+    color: white;
+    background-color: #2B1F1A;
+}
+
+
 footer{
      
     display: grid;
     justify-content: center; 
-    background-color: rgb(2, 2, 61);
+    background-color: #1C2C41;
 }
 
 #one{
