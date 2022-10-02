@@ -29,7 +29,11 @@ a{
 }
 
 li {
+<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
+=======
+font-family: 'Montserrat', sans-serif;	
+>>>>>>> f258733d65c07233bf93b18cf948c6458df672ac
 }
 
 header{
