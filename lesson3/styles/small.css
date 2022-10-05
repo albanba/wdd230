@@ -6,26 +6,24 @@ body {
     
 }
 
-p {
+p, a, li, td {
     font-family: 'Montserrat', sans-serif;
 }
 
-a{
-    font-family: 'Montserrat', sans-serif;
-}
 
-li {
-    font-family: 'Montserrat', sans-serif;
-}
 
 
 h1 {
     font-family: 'Roboto', sans-serif;
+    color: #C2981E;
+    font-size: 1em;
+    padding: 10px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    font-size: 1.25em;
 }
 
 h3 {
@@ -57,11 +55,6 @@ nav a:hover {
 }
 
 
-h1{
-    color: #C2981E;
-    font-size: 1em;
-    padding: 10px;
-}
 
 main{
     max-width: 850px;
@@ -69,9 +62,34 @@ main{
     padding: 10px;
 }
 
-h2{
-    font-size: 1.25em;
+
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  td{
+    font-size: 0.70em;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  #h1Sample, #h2Sample, #h3Sample, 
+  #navSample, #bodySample, #footerSample {
+    
+    display: none;
+
 }
+
+ 
 
 #colors {
     display: flex;
@@ -126,6 +144,9 @@ main h2{
     color: white;
     background-color: #2B1F1A;
 }
+
+
+
 
 
 footer{

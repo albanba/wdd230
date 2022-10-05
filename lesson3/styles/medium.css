@@ -14,6 +14,64 @@
     font-size: 1.5em;
   }
 
+  td{
+    font-size: 1em;
+  }
+
+  #h1Sample {
+    display: table-cell;
+    background-color: #1C2C41;
+    color: #C2981E;
+    font-size: 3em;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+#h2Sample {
+    display: table-cell;
+    background-color: #2B1F1A;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family:'Roboto', sans-serif;
+   
+}
+
+#h3Sample {
+    display: table-cell;  
+    font-size: 1.7em;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#navSample {
+    display: table-cell;
+    background-color: #1C2C41;
+    color: #ffffff;
+    font-size: 1.10em;
+    font-family:'Montserrat', sans-serif;
+    
+
+}
+
+#bodySample {
+    display: table-cell;
+    font-size: 1.3em;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+#footerSample {
+    display: table-cell;
+    background-color: #1C2C41;
+    color: #ffffff;
+    font-size: 1em;
+    font-family:'Montserrat', sans-serif;
+    
+
+}
+
   nav div {
     flex: 1 1 auto;
   }
