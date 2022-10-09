@@ -3,6 +3,9 @@ body{
     max-width: 1000px ;
 }
 
+h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+
+p, li, a, td {    font-family: 'Montserrat', sans-serif;}
 
 header{
     display: grid;
@@ -29,7 +32,7 @@ header{
     padding-bottom: 15px;;
 }
 
-#linkedIn{
+.linkedIn{
 
     display: block;
     justify-self: center;
@@ -40,7 +43,7 @@ header{
     max-width: 15px;
 }
 
-#instagram{
+.instagram{
     display: block;
     justify-self: center;
     align-self: center;
@@ -62,18 +65,18 @@ header{
 }
 
 #navHeader{
-display: block;
-grid-column: 1;
+display: inline;
+grid-column: 1/7;
 grid-row: 3;
-margin: 0 auto;
-max-width: 760px;
+margin: 0;
+
 background-color: #2B1F1A;
 
 
 }
 
 .navigation {
-    flex: 1 1 auto;
+    margin: 0;
 	padding: 0;
     list-style: none;
     
@@ -98,9 +101,8 @@ background-color: #2B1F1A;
 	text-align: left;
 	text-decoration: none;
 	color: white;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-size: 0.80em;
+	
 }
 .navigation a.ham::before {
 	content: " ☰ ";
@@ -117,4 +119,48 @@ background-color: #2B1F1A;
 
 .responsive a.ham::before {
 	content: "❌ ";
+}
+
+main{
+    display: grid;
+    gap: 5px;
+}
+
+
+
+div {
+    background-color: beige;
+height: 90px;
+}
+
+div h3{
+    font-size: 0.80em;
+}
+
+#spotlights{
+    
+    display: grid;
+    padding: 10px;
+    height: auto;
+}
+
+
+#join{
+    display: none;
+}
+
+#spotlights div{
+    border: 1px darkgray solid ;
+    
+}
+
+#spot3{
+    display: none;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
