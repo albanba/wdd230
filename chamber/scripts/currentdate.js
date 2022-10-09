@@ -11,7 +11,7 @@ let last = new Date(document.lastModified);
 
 let month = months[last.getMonth()]
 let day = weekday[last.getDay()]
-let date = last.getDay()
+let date = last.getDate()
 let year = last.getFullYear()
 let hour = last.getHours()
 let minutes = last.getMinutes()

@@ -52,7 +52,7 @@ header{
 
 #lastUpateHeader{
     border: #C2981E solid 3px;
-    grid-column: 3/7;
+    grid-column: 4/7;
     grid-row: 2;
     font-size: 0.60em;
     text-align: center;
@@ -63,7 +63,7 @@ header{
 
 #navHeader{
 display: block;
-grid-column: 1/4;
+grid-column: 1;
 grid-row: 3;
 margin: 0 auto;
 max-width: 760px;
@@ -94,10 +94,13 @@ background-color: #2B1F1A;
 
 .navigation a{
     display: block;
-    text-decoration: none;
-    color: white;
-    text-align: left;
-    
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 .navigation a.ham::before {
 	content: " ☰ ";
