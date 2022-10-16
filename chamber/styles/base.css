@@ -8,6 +8,8 @@ h1, h2, h3 {font-family: 'Roboto', sans-serif;}
 
 p, li, a, td {    font-family: 'Montserrat', sans-serif;}
 
+
+
 #mainHeader{
     display: flex;
     justify-content: space-between;
@@ -106,6 +108,7 @@ background-color: #2B1F1A;
 	text-decoration: none;
 	color: white;
     font-size: 0.80em;
+ 
 	
 }
 .navigation a.ham::before {
@@ -167,4 +170,18 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+a:hover {
+    color: #C2981E;
+  }
+
+  #banner{
+    display: none;
+	text-align: center;
+	background: radial-gradient(#eee, #1C2C41);
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.8;
 }
