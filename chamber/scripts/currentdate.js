@@ -24,10 +24,10 @@ let seconds = last.getSeconds()
 document.getElementsByClassName("lastupdate")[0].textContent = `${day}, ${date} ${month} ${year}`;
 document.getElementsByClassName("lastupdate")[1].textContent = `${day}, ${date} ${month} ${year}`;
 
-//if (day == 'Monday' || day == 'Tuesday' ) {
+if (day == 'Monday' || day == 'Tuesday' ) {
     
-    
+  document.getElementById('banner').style.display = "block" 
 
-  //}
+}
 
-  document.getElementById('banner').style.display = "block"
+  
