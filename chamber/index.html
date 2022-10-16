@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Alban Barrantes Portal</title>
+    <title>Turrialba Chamber of Commerce</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alban Barrantes">
@@ -21,17 +21,26 @@
 <body>
 
     <header>
-        <img id="logoHeader" src="images/logo.png" alt="logo">
 
-        <h1 id="siteNameHeader">Turrialba <br> Chamber of Commerce</h1>
+        <div id="mainHeader">
+            <div id="logoAndTitle">
+                <img class="logo" src="images/logo.png" alt="logo">
+
+                <h1 id="siteNameHeader">Turrialba <br> Chamber of Commerce</h1> 
+
+            </div>
+        
+              
+
+            <div id="social">
+                <a class="linkedIn" href="https://www.linkedin.com/"><img class="linkedIn"  src="images/linkedIn.png" alt="linkedIn"></a>
+
+                <a class="instagram" href="https://www.instagram.com/"><img class="instagram" src="images/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+
 
         <h2 id="lastUpateHeader"><span class="lastupdate"></span></h2>
-
-        <a class="linkedIn" href="https://www.linkedin.com/"><img class="linkedIn"  src="images/LinkedIn.png" alt="linkedIn"></a>
-
-        <a class="instagram" href="https://www.instagram.com/"><img class="instagram" src="images/instagram.png" alt="instagram"></a>
-        
-        
 
         <nav id="navHeader">
             <ul class="navigation">
@@ -97,17 +106,31 @@
    
     <footer>
 
-        <img src="images/logo.png" alt="logo">
-        <p id="footerSiteName">Turrialba Chamber of Commerce</p>
-        <p id="contact">Turrialba, Cartago, Costa Rica <br>+506 2253-0149<br>albanba@gmail.com </p>
-        <a id="map" href="https://goo.gl/maps/2SiUHkyae27BdSXW9">Location Map</a>
-        <p class="middleRow">&copy;<span id="year"></span> Turrialba Chamber</p>
+        <div>
+            <div id="logoFooterName">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <p id="footerSiteName">Turrialba Chamber of Commerce</p>
+            </div>
+
+            <div id="contactInfo">
+                <p id="contact">Turrialba, Cartago, Costa Rica <br>+506 2253-0149<br>albanba@gmail.com </p>
+                <a id="map" href="https://goo.gl/maps/2SiUHkyae27BdSXW9">Location Map</a>
+            </div>
+        </div>
+
         
-        <p class="middleRow">Alban Barrantes</p>
+        <div id="lastFlex">
+            <div>
+            <p class="middleRow">&copy;<span id="year"></span> Turrialba Chamber</p>
         
-        <p class="middleRow">WDD 230 Project</p>
-        <p id="last">Last Modification: <span class="lastupdate"></span></p>
-             
+            <p class="middleRow">Alban Barrantes</p>
+        
+            <p class="middleRow">WDD 230 Project</p>
+            </div>
+            
+            <p id="last">Last Modification: <span class="lastupdate"></span></p>
+            
+        </div>
     </footer>
     
     <script src="scripts/currentdate.js"></script>
