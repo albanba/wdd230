@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    max-width: 1000px ;
+    max-width: 1200px ;
     
 }
 
@@ -13,7 +13,7 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
 #mainHeader{
     display: flex;
     justify-content: space-between;
-    
+    background-color:#1C2C41;
     
     
 }
@@ -28,15 +28,16 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
     
     width: 30%;
     max-width: 200px;
-    border-top: #1C2C41 5px solid;
+    
     border-left: #1C2C41 5px solid;
 }
 
 #siteNameHeader{
-    
-    font-size: 0.80em;
+    color: white;
+    font-size: 1rem;
     padding-top: 15px;
     padding-bottom: 15px;;
+    padding-left: 10px;
 }
 
 #social{
@@ -66,7 +67,7 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
 
 #lastUpateHeader{
     border: #C2981E solid 3px;
-    font-size: 0.60em;
+    font-size: 0.60rem;
     text-align: center;
     padding-top: 4px;
     margin-block: 0.10em;
@@ -130,18 +131,45 @@ background-color: #2B1F1A;
 
 main{
     display: grid;
-    gap: 5px;
+    gap: 1%;
+    grid-template-rows: repeat(4, 15.5%) 31%;
 }
 
 
 
 main div {
     background-color: beige;
-height: 90px;
+    height: 190px;
 }
 
 div h3{
-    font-size: 0.80em;
+    font-size: 1rem;
+}
+
+.heroWelcome{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.hero{
+   
+    position: relative;
+}
+
+#heroImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#event{
+    align-items: center;
+    text-align: center;
+}
+
+#newsRelease{
+    text-align: center;
 }
 
 #spotlights{
@@ -158,18 +186,24 @@ div h3{
 
 #spotlights div{
     border: 1px darkgray solid ;
-    
+    text-align: center;
 }
 
 #spot3{
     display: none;
 }
 
+#spotlights span{
+
+    font-size: 50px;
+}
 
 footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #1C2C41;
+    color: white;
 }
 
 a:hover {
