@@ -148,8 +148,8 @@ div h3{
 
 .heroWelcome{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 1px;
+    left: 10px;
 
 }
 .hero{
@@ -206,9 +206,25 @@ footer{
     color: white;
 }
 
+
 a:hover {
     color: #C2981E;
   }
+
+#map{
+    color: white;
+    }
+
+#map:visited {
+        color: lightblue;
+      }
+
+
+#map:hover {
+        color: #C2981E;
+      }
+
+
 
   #banner{
     display: none;
