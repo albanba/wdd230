@@ -42,7 +42,7 @@
         grid-template-rows: repeat(5, 19%);
     }
 
-    #hero{
+    .hero{
         
         grid-column: 1/3;
         grid-row: 1;

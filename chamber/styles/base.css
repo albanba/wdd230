@@ -148,16 +148,16 @@ div h3{
 
 .heroWelcome{
     position: absolute;
-    top: 1px;
-    left: 10px;
+    bottom: 1px;
+    right: 10px;
 
 }
 .hero{
-   
+    height: 190px;
     position: relative;
 }
 
-#heroImage{
+.heroImage{
     height: 100%;
     width: 100%;
     object-fit: cover;

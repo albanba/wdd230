@@ -28,7 +28,7 @@
 
         <div id="mainHeader">
             <div id="logoAndTitle">
-                <img class="logo" src="images/logo.png" alt="logo">
+                <img class="logo" src="images/logo.webp" alt="logo">
 
                 <h1 id="siteNameHeader">Turrialba <br> Chamber of Commerce</h1> 
 
@@ -65,17 +65,16 @@
     
     <main>
         
-        <div class="hero">
+        <picture class="hero">
            
-                
-            <img id="heroImage" src="images/hero-700w.jpg" alt="Welcome to Turrialba" width="700" height="360">
-                    <!-- srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
-                    sizes="(max-width: 600px) 480px,
-                       800px"-->
+            <source class="heroImage" srcset="images/hero-1000w.jpg" media="(min-width: 40em) and (max-width: 63.9375em)">    
+            <source class="heroImage" srcset="images/hero-600w.jpg" media="(min-width: 64em)">  
+            <img class="heroImage"  src="images/hero-700w.jpg" alt="Welcome to Turrialba" width="700" height="360">
+                    
                     
             
             <h1 class="heroWelcome">Welcome to Turrialba</h1>
-        </div>
+        </picture>
 
        
 
@@ -143,7 +142,7 @@
 
         <div>
             <div id="logoFooterName">
-                <img class="logo" src="images/logo.png" alt="logo">
+                <img class="logo" src="images/logo.webp" alt="logo">
                 <p id="footerSiteName">Turrialba Chamber of Commerce</p>
             </div>
 
