@@ -19,19 +19,32 @@
 </head>
 
 <body>
+    <section id="banner">
 
+        <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2> 
+    
+    </section>
     <header>
-        <img class="logoHeader" src="images/logo.png" alt="logo">
 
-        <h1 class="siteNameHeader">Turrialba <br> Chamber of Commerce</h1>
+        <div id="mainHeader">
+            <div id="logoAndTitle">
+                <img class="logo" src="images/logo.webp" alt="logo">
 
-        <h2 class="lastUpateHeader"><span class="lastupdate"></span></h2>
+                <h1 id="siteNameHeader">Turrialba <br> Chamber of Commerce</h1> 
 
-        <a class="linkedIn" href="https://www.linkedin.com/"><img class="linkedIn"  src="images/LinkedIn.png" alt="linkedIn"></a>
-
-        <a class="instagram" href="https://www.instagram.com/"><img class="instagram" src="images/instagram.png" alt="instagram"></a>
+            </div>
         
-        
+              
+
+            <div id="social">
+                <a class="linkedIn" href="https://www.linkedin.com/"><img class="linkedIn"  src="images/linkedIn.png" alt="linkedIn"></a>
+
+                <a class="instagram" href="https://www.instagram.com/"><img class="instagram" src="images/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+
+
+        <h2 id="lastUpateHeader" class="lastupdate"></h2>
 
         <nav id="navHeader">
             <ul class="navigation">
@@ -43,26 +56,51 @@
                 
             </ul>
 
+          
         </nav>
+
+       
+
     </header>
     
     <main>
-          
-        <div id="hero">
-            <h3>Hero with site name and Call to Action</h3>
+
+        <div class="hero">
+        
+            <picture>
+           
+                <source class="heroImage" srcset="images/hero-1000w.jpg" media="(min-width: 40em) and (max-width: 63.9375em)">    
+                <source class="heroImage" srcset="images/hero-600w.jpg" media="(min-width: 64em)">  
+                <img class="heroImage"  src="images/hero-700w.jpg" alt="Welcome to Turrialba" width="700" height="360">
+            </picture>
+            
+            <h1 class="heroWelcome">Welcome to Turrialba</h1>
+        
         </div>
+       
 
         <div id="event">
-            <h3>Event</h3>
+            <h3>Ribbon Cutting</h3>
+            <h2>💎 The Diamond Shack</h2>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00pm</p>
         </div>
 
         
         <div id="weather">
             <h3>Weather</h3>
+            <h3>Temperature: <span id="temp">45</span>°F</h3>
+            <h3>Wind Speed: <span id="speed">5</span> mph</h3>
+            <h3>Wind Chill: <span id="wChill"></span> °F</h3>
+           
+
+          
         </div>
 
         <div id="newsRelease">
             <h3>News Release</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
         </div>
         
         <div id="join">
@@ -76,15 +114,21 @@
 
         <div id="spotlights">
             <div id="spot1">
-                <h3>Spotlight1</h3>
+                <h3>Thankful Transport</h3>
+                <span>⛟</span>
+                <p>"We get it for you!"<br> ----------------------- <br>hello@thankfultrasnport.com</p>
             </div>
             
             <div id="spot2">
-                <h3>Spotlight2</h3>
+                <h3>Code Primera</h3>
+                <span>🎓</span>
+                <p>An after school coding instructional program. <br> ----------------------- <br>cotact@codeprimera.com</p>
             </div>
             
             <div id="spot3">
-                <h3>Spotlight3</h3>
+                <h3>Build a Treefort</h3>
+
+                <p>Over 1000 plans!</p>
             </div>
         </div>
         
@@ -97,21 +141,36 @@
    
     <footer>
 
-        <img src="images/logo.png" alt="logo">
-        <p id="footerSiteName">Turrialba Chamber of Commerce</p>
-        <p id="contact">Turrialba, Cartago, Costa Rica <br>+506 2253-0149<br>albanba@gmail.com </p>
-        <a id="map" href="https://goo.gl/maps/2SiUHkyae27BdSXW9">Location Map</a>
-        <p class="middleRow">&copy;<span id="year"></span> Turrialba Chamber</p>
+        <div>
+            <div id="logoFooterName">
+                <img class="logo" src="images/logo.webp" alt="logo">
+                <p id="footerSiteName">Turrialba Chamber of Commerce</p>
+            </div>
+
+            <div id="contactInfo">
+                <p id="contact">Turrialba, Cartago, Costa Rica <br>+506 2253-0149<br>albanba@gmail.com </p>
+                <a id="map" href="https://goo.gl/maps/2SiUHkyae27BdSXW9">Location Map</a>
+            </div>
+        </div>
+
         
-        <p class="middleRow">Alban Barrantes</p>
+        <div id="lastFlex">
+            <div>
+            <p class="middleRow">&copy;<span id="year"></span> Turrialba Chamber</p>
         
-        <p class="middleRow">WDD 230 Project</p>
-        <p id="last">Last Modification: <span class="lastupdate"></span></p>
-             
+            <p class="middleRow">Alban Barrantes</p>
+        
+            <p class="middleRow">WDD 230 Project</p>
+            </div>
+            
+            <p id="last">Last Modification: <span class="lastupdate"></span></p>
+            
+        </div>
     </footer>
     
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburguer.js"></script>
+    <script src="scripts/windchill.js"></script>
    
 </body>
 
