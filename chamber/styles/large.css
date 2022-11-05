@@ -45,6 +45,13 @@
         font-size: 1.2em;
     }
 
+    header h2{
+      
+        font-size: 1.2em;
+       
+        
+    }
+
     main{
         
         grid-template-columns: 24% 50% 24%;
