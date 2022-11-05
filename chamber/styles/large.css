@@ -15,7 +15,7 @@
 		display: none;
 	}
     
-    #siteNameHeader{
+    .siteNameHeader{
         
         font-size: 2em;
        
@@ -33,11 +33,7 @@
         max-width: 40px;
     }
 
-    #lastUpateHeader{
-       
-        font-size: 1em;
-       
-    }
+
 
     .navigation a{
         
@@ -97,19 +93,19 @@
        
     }
 
-    #logoFooterName{
+    .logoFooterName{
         display: flex;
         align-items: center;
    }
     
-   #contactInfo{
+   .contactInfo{
         display: flex;
         flex-direction: column;
         margin: 2rem;
 
    }
 
-   #lastFlex{
+   .lastFlex{
 
     display: flex;
     flex-direction: row;
@@ -138,7 +134,7 @@
         
     }
     
-    #last{
+    .last{
         
         text-align: center;
     }

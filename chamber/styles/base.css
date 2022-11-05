@@ -10,7 +10,7 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
 
 
 
-#mainHeader{
+.mainHeader{
     display: flex;
     justify-content: space-between;
     background-color:#1C2C41;
@@ -18,7 +18,7 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
     
 }
 
-#logoAndTitle{
+.logoAndTitle{
     display: flex;
   
     margin: 0;
@@ -39,9 +39,10 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
     padding-top: 15px;
     padding-bottom: 15px;;
     padding-left: 10px;
+    color: white;
 }
 
-#social{
+.social{
     display: flex;
     align-items: center;
     margin-top: 0px;
@@ -66,7 +67,7 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
     max-width: 15px;
 }
 
-.lastUpateHeader{
+header h2{
     border: #C2981E solid 3px;
     font-size: 0.60rem;
     text-align: center;
@@ -75,7 +76,7 @@ p, li, a, td {    font-family: 'Montserrat', sans-serif;}
     
 }
 
-#navHeader{
+.navHeader{
 
 margin: 0;
 background-color: #2B1F1A;
@@ -212,16 +213,16 @@ a:hover {
     color: #C2981E;
   }
 
-#map{
+.map{
     color: white;
     }
 
-#map:visited {
+.map:visited {
         color: lightblue;
       }
 
 
-#map:hover {
+.map:hover {
         color: #C2981E;
       }
 
