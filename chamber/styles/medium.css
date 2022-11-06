@@ -45,6 +45,9 @@
         grid-template-rows: repeat(5, 19%);
     }
 
+
+    .mainDiscover img:hover  {box-shadow: 0 0 70px #333;}
+
     .hero{
         
         grid-column: 1/3;

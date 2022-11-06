@@ -137,18 +137,19 @@ main{
     grid-template-rows: repeat(4, 15.5%) 31%;
 }
 
-#mainDiscover{
+.mainDiscover{
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#mainDiscover img{
+.mainDiscover img{
     width: 100%;
     max-width: 1000px; 
 
 }
+
 
 
 main div {
