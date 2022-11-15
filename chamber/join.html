@@ -74,52 +74,31 @@
         input and buttons 50 px
 
      -->
-     <main>
-        <h1>Course Proposal Application</h1>
+     <main id="join">
+        <h1>Join the Chamber Form</h1>
             
         <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Join Form</legend>
                     <label>First Name*<input type="text" name="fname" required></label>
                     <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Phone<input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label>Title<input type="text" name="title"></label>
+                    <label>Business Position<input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
                     <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label>Website<input type="url" name="url" placeholder="http://"></label>
+                    <label>Cell Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label>Business Name<input type="text" name="company" required></label>
                 </fieldset>
     
                 <fieldset>
-                    <legend>Course Information</legend>
-                    <div>Audience</div>
-                    <label><input type="radio" name="audience" value="beginner">Beginner</label>
-                    <label><input type="radio" name="audience" value="intermediate">Intermediate</label>
-                    <label><input type="radio" name="audience" value="Expert">Expert</label>
-                
-                    <div>Software Needed</div>
-                    <label><input type="checkbox" name="editing" value="yes"> Photo editing</label>
-                    <label><input type="checkbox" name="code" value="yes"> Coding</label>
-                    <label><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-                    <label><input type="checkbox" name="client" value="yes"> FTP Client</label>
+                    <legend>Membership Level</legend>
+                    <label><input class="radio" type="radio" name="level" value="NP Membership">NP Membership</label>
+                    <label><input class="radio" type="radio" name="level" value="Bronze Membership">Bronze Membership</label>
+                    <label><input class="radio" type="radio" name="level" value="Silver Membership">Silver Membership</label>
+                    <label ><input class="radio" type="radio" name="level" value="Gold Membership">Gold Membership</label>                  
+                    <label>Business Description<textarea type="text" name="description" rows="3"  cols="45"></textarea></label>
+                    <label><input type="hidden" name="date"></label>
                 </fieldset>
     
-                <fieldset>
-                    <legend>Funding</legend>
-                    <label>Anticipated Completion Date <input type="date" name="completeDate"></label>
-                    <label>Course Subject
-                        <select name="subject">
-                        <option value="">Please select</option>                                        
-                        <option value="software">Software Development</option>
-                        <option value="creative">Creative professional</option>
-                        <option value="info">Information Technology</option>
-                        <option value="data">Data professional</option>
-                        <option value="construction">Construction</option>
-                        <option value="manufacturing">Manufacturing</option>
-                        </select>
-                    </label>
-    
-                </fieldset>
-    
-                <input type="submit" value="Propose My Course">
+                <input class="button" type="submit" value="Join Now">
     
         </form>   
        
@@ -157,8 +136,7 @@
     
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburguer.js"></script>
-    <script src="scripts/lazy.js"></script>
-    <script src="scripts/lastVisit.js"></script>
+
     
    
 </body>

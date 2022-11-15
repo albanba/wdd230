@@ -4,9 +4,9 @@ body{
     
 }
 
-h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+h1, h2, h3, legend {font-family: 'Roboto', sans-serif;}
 
-p, li, a, td {    font-family: 'Montserrat', sans-serif;}
+p, li, a, td, label, input {    font-family: 'Montserrat', sans-serif;}
 
 
 
@@ -250,3 +250,52 @@ a:hover {
 	box-shadow: 0 0 30px #333;
 	opacity: 0.8;
 }
+
+
+
+/* Join Form Page */
+#join{
+
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    font-size: 2rem;
+   
+}
+
+fieldset{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border-color: #C2981E;
+    border-width: 4px;
+}
+
+label, textarea{
+
+    display: block;
+    margin: 10px;
+}
+.radio{
+    display: inline;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+input{
+    display: block;
+    
+}
+
+.button{
+    background-color: #1C2C41;
+    color: #C2981E;
+    margin-bottom: 15PX;
+    margin-left:7px;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+

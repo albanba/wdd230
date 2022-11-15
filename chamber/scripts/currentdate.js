@@ -3,6 +3,10 @@ const months = ["January","February","March","April","May","June","July","August
 
 let d = new Date();
 
+document.getElementsByName("date")[0].setAttribute("value", d)
+
+
+
 let fullyear = d.getFullYear();
 
 document.querySelector("#year").textContent = fullyear;
