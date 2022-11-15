@@ -254,10 +254,10 @@ a:hover {
 
 
 /* Join Form Page */
-#join{
-
-    display: flex;
+#mainJoin{
+    display: flex;  
     flex-direction: column;
+    align-items: center;
 }
 
 legend{
@@ -272,6 +272,7 @@ fieldset{
     margin: 1rem;
     border-color: #C2981E;
     border-width: 4px;
+    width: 85%;
 }
 
 label, textarea{
@@ -298,4 +299,26 @@ input{
     font-size: 1.5rem;
 }
 
+textarea{
 
+    width: 70%;
+}
+
+#membership{
+    width: 90%;
+    height: min-content;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 2%;
+    border: solid 3px #1C2C41;
+}
+
+#membership p{
+
+    margin-top: 0;
+}
+
+#membership h2{
+
+    margin-bottom: 0;
+}

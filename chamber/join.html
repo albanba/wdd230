@@ -74,12 +74,14 @@
         input and buttons 50 px
 
      -->
-     <main id="join">
+     <main id="mainJoin">
         <h1>Join the Chamber Form</h1>
+
+        
             
         <form method="get" action="thankyou.html">
                 <fieldset>
-                    <legend>Join Form</legend>
+                    <legend>Personal Information</legend>
                     <label>First Name*<input type="text" name="fname" required></label>
                     <label>Last Name*<input type="text" name="lname" required></label>
                     <label>Business Position<input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
@@ -94,13 +96,32 @@
                     <label><input class="radio" type="radio" name="level" value="Bronze Membership">Bronze Membership</label>
                     <label><input class="radio" type="radio" name="level" value="Silver Membership">Silver Membership</label>
                     <label ><input class="radio" type="radio" name="level" value="Gold Membership">Gold Membership</label>                  
-                    <label>Business Description<textarea type="text" name="description" rows="3"  cols="45"></textarea></label>
+                    <label>Business Description<textarea name="description" cols="30" ></textarea></label>
                     <label><input type="hidden" name="date"></label>
                 </fieldset>
     
                 <input class="button" type="submit" value="Join Now">
     
         </form>   
+
+        <div id="membership">
+            <h1>Membership Levels</h1>
+
+            <h2>NP Membership</h2>
+            <p><b>$0 Monthly Fee</b> - Includes 5% discounts for training, and events. </p>
+          
+            <h2>Bronze Membership</h2>
+            <p><b>$5 Monthly Fee</b> - Includes 10% discounts for training, and events. </p>
+
+            <h2>Silver Membership</h2>
+            <p><b>$7 Monthly Fee</b> - Includes 10% discounts for training, advertising, and events. </p>
+
+            <h2>Gold Membership</h2>
+            <p><b>$10 Monthly Fee</b> - Includes 15% discounts for training, advertising, and events. </p>
+
+        </div>
+        
+       
        
     </main>
    

@@ -132,8 +132,6 @@
     footer img{
         
         max-width: 200px;
-      
-        
     }
 
   
@@ -146,6 +144,20 @@
     .last{
         
         text-align: center;
+    }
+
+      /* Join Page */
+      #mainJoin{
+        display: grid;
+        grid-template-columns: repeat(2, 50% );
+        grid-template-rows: auto 100%;  
+        column-gap: 4%;
+        align-items: initial;
+    
+    }
+
+    form{
+        grid-column: 1;
     }
 
 
