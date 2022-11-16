@@ -12,14 +12,87 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
-<h1>
+
+<header>
+
+    <div class="mainHeader">
+        <div class="logoAndTitle">
+            <img class="logo" src="images/logo.webp" alt="logo">
+
+            <h1 class="siteNameHeader">Turrialba <br> Chamber of Commerce</h1> 
+
+        </div>
+    
+          
+
+        <div class="social">
+            <a class="linkedIn" href="https://www.linkedin.com/"><img class="linkedIn"  src="images/linkedIn.png" alt="linkedIn"></a>
+
+            <a class="instagram" href="https://www.instagram.com/"><img class="instagram" src="images/instagram.png" alt="instagram"></a>
+        </div>
+    </div>
+    <nav class="navHeader">
+        <ul class="navigation">
+            <li><a class="ham" href="#">Menu</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a> </li>
+            <li> <a href="#">Contact</a></li>
+            
+        </ul>
+
+      
+    </nav>
+</header>
+
+    <main id="thankYou">
+
+    <h1>
     Turrialba Chamber of Commerce
-</h1>
+    </h1>
 
-<h3>
+    <h2>
     Thank you for joining the Chamber. You will receive emails with important announcements regarding all of the acctivities.
-</h3>
+    </h2>
 
 
-<h1>Please stay tuned!</h1>
+    <h1 id="tuned">Please stay tuned!</h1>
+
+</main>
+
+
+<footer>
+
+    <div>
+        <div class="logoFooterName">
+            <img class="logo" src="images/logo.webp" alt="logo">
+            <p id="footerSiteName">Turrialba Chamber of Commerce</p>
+        </div>
+
+        <div class="contactInfo">
+            <p class="contact">Turrialba, Cartago, Costa Rica <br>+506 2253-0149<br>albanba@gmail.com </p>
+            <a class="map" href="https://goo.gl/maps/2SiUHkyae27BdSXW9">Location Map</a>
+        </div>
+    </div>
+
+    
+    <div class="lastFlex">
+        <div>
+        <p class="middleRow">&copy;<span id="year"></span> Turrialba Chamber</p>
+    
+        <p class="middleRow">Alban Barrantes</p>
+    
+        <p class="middleRow">WDD 230 Project</p>
+        </div>
+        
+        <p id="last">Last Modification: <span class="lastupdate"></span></p>
+        
+    </div>
+</footer>
+
+<script src="scripts/currentdate.js"></script>
+<script src="scripts/hamburguer.js"></script>
+

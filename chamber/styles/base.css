@@ -322,3 +322,26 @@ textarea{
 
     margin-bottom: 0;
 }
+
+/* Thank You Page */
+
+#thankYou{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    padding: 1%;
+    align-items: center;
+    
+}
+
+#thankYou h2{
+    font-size: 1.5em;
+
+}
+#tuned{
+    background-color: #1C2C41;
+    color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: solid #1C2C41 10px;
+}
