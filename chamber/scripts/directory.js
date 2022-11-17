@@ -22,12 +22,14 @@ fetch("json/data.json")
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let location = document.createElement('p');
+        let web = document.createElement('a')
         let phone = document.createElement('p');
         let logo = document.createElement('img');
         let membership = document.createElement('p');
       
         // Change the textContent property of the h2 element to contain the prophet's full name
         name.textContent = `${org.name}`;
+        web.textContent = `${org.weburl}`;
         location.textContent = `Address: ${org.address}`;
         phone.textContent = `Phone: ${org.phonenumber}`;
         membership.textContent=`Membership Level: ${org.membership}`;
@@ -36,10 +38,12 @@ fetch("json/data.json")
         logo.setAttribute('src', org.img);
         logo.setAttribute('alt', `${org.name}'s Logo`);
         logo.setAttribute('loading', 'lazy');
+        web.setAttribute('href', org.weburl)
       
         // Add/append the section(card) with the h2 element
         card.appendChild(name);
         card.appendChild(location);
+        card.appendChild(web);
         card.appendChild(phone);
         card.appendChild(logo);
         card.appendChild(membership);

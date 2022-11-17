@@ -360,6 +360,13 @@ textarea{
     align-items: center;
     margin: 0.40rem;
     padding: 0.40rem;
-    background-color: blanchedalmond;
+    background-color: white;
     box-shadow: 0 0 30px #777;
+    text-align: center;
+}
+
+.cards img{
+    max-width: 175px;
+    background-color: #1C2C41;
+    
 }
