@@ -51,7 +51,7 @@ p, li, a, td, label, input {    font-family: 'Montserrat', sans-serif;}
     margin-left: 2rem;
 }
 
-.linkedIn{
+.linkedIn, .instagram {
 
     display: block;
     
@@ -60,12 +60,7 @@ p, li, a, td, label, input {    font-family: 'Montserrat', sans-serif;}
     max-width: 15px;
 }
 
-.instagram{
-    display: block;
-   
-    width: 100%;
-    max-width: 15px;
-}
+
 
 header h2{
     border: #C2981E solid 3px;
@@ -348,13 +343,30 @@ textarea{
 
 /* Directory page */
 
-.cards {
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
 }
 
-.cards section{
+.list {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.list section{
+    display: flex;
+    flex-direction: column;
+    margin: 0.70em;
+}
+
+.list h2, p, a{
+   
+    font-size: small;
+} 
+
+.grid section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,8 +377,25 @@ textarea{
     text-align: center;
 }
 
-.cards img{
+
+.grid img{
     max-width: 175px;
     background-color: #1C2C41;
     
+}
+
+.list img{
+
+    display: none;
+}
+
+.list .membership{
+    display: none;
+}
+.directoryButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+
 }

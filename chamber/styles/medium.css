@@ -140,6 +140,18 @@
         grid-column: 1;
     }
 
-  
+    /* Directory */
+
+    .list section{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 125px;
+        align-items: center;
+    }
+
+    .list h2, p, a{
+        padding: 0.85em;
+        font-size: small;
+    } 
 
 }

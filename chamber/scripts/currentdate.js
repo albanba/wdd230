@@ -33,4 +33,3 @@ if (tday == 'Monday' || tday == 'Tuesday' ) {
 
 }
 
-document.getElementsByName("date")[0].setAttribute("value", d)
