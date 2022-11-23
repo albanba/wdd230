@@ -14,7 +14,7 @@
         "phonenumber": "2558-1200",
         "weburl": "https://www.insomacostarica.com/",
         "img": "https://static.wixstatic.com/media/538ff9_aff7c3a008b94b6993c199faf9d6ac47~mv2_d_2667_2134_s_2.png/v1/crop/x_0,y_24,w_2667,h_2086/fill/w_110,h_86,al_c,q_95,enc_auto/Logo-01.png",
-        "membership": "Gold" 
+        "membership": "Silver" 
       },
       {
         "name": "Centro de Copiado Tencio",
@@ -22,7 +22,7 @@
         "phonenumber": "(506) 2556 5374",
         "weburl": "https://centro-de-copiado-tencio.negocio.site/",
         "img": "https://lh3.googleusercontent.com/p/AF1QipOAacF5mIZ9I3ZcS6OkeQq8UYzGFKG-99Z8dQMd=w768-h768-n-o-v1",
-        "membership": "Gold"  
+        "membership": "Bronze"  
       },
       {
         "name": "CATIE",
@@ -30,7 +30,7 @@
         "phonenumber": "(506) 2558-2000",
         "weburl": "https://www.catie.ac.cr/",
         "img": "https://www.catie.ac.cr/wp-content/uploads/2022/04/Logo-CATIE-verde-inclusivo-vaciado.png",
-        "membership": "Gold" 
+        "membership": "NP" 
       },
       {
         "name": "Grupo Transtusa",
@@ -46,7 +46,7 @@
         "phonenumber": "(506) 2556 2453",
         "weburl": "https://drapaoladelgado.com/",
         "img": "https://drapaoladelgado.com/wp-content/uploads/2018/07/Dra-Paola-Delgado-logo-blanco.png",
-        "membership": "Gold" 
+        "membership": "Silver" 
       },
       {
         "name": "Sistemas Rodriguez.",
@@ -54,7 +54,7 @@
         "phonenumber": "(506) 2271-1185",
         "weburl": "https://www.sistemasrodriguez.com/",
         "img": "https://cdn.shopify.com/s/files/1/0249/5827/1569/files/SISTEMAS_RODRIGUEZ.COM-01_f8178363-ccb9-400c-be4f-5693e8ac9176_175x@2x.png?v=1652141409",
-        "membership": "Gold" 
+        "membership": "Bronze" 
       },
       {
         "name": "Lab Clínico LEYSA",
@@ -62,7 +62,7 @@
         "phonenumber": "(506) 2556-1516",
         "weburl": "https://laboratorioleysa.com/",
         "img": "https://laboratorioleysa.com/wp-content/uploads/2015/01/logoold.png",
-        "membership": "Gold" 
+        "membership": "NP" 
       },
       {
         "name": "Decomar",
