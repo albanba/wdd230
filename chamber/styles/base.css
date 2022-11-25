@@ -127,9 +127,12 @@ background-color: #2B1F1A;
 }
 
 main{
-    display: grid;
-    gap: 1%;
-    grid-template-rows: repeat(4, 15.5%) 31%;
+    /* display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
+    display: flex;
+    flex-direction: column;
+    gap: 0.9%;
+    
 }
 
 .mainDiscover{
@@ -149,7 +152,9 @@ main{
 
 main div {
     background-color: beige;
-    height: 190px;
+    height: 300px;
+    padding: 0.8em;
+    margin: 0.4em;
 }
 
 div h3{
@@ -163,7 +168,7 @@ div h3{
 
 }
 .hero{
-    height: 190px;
+    
     position: relative;
 }
 
@@ -178,6 +183,24 @@ div h3{
     text-align: center;
 }
 
+#weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.weatherDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#weather-icon{
+    width: 70%;
+}
+
 #newsRelease{
     text-align: center;
 }
@@ -185,8 +208,7 @@ div h3{
 #spotlights{
     
     display: grid;
-    padding: 10px;
-    height: auto;
+    height: 600px;   
 }
 
 
@@ -197,6 +219,7 @@ div h3{
 #spotlights div{
     border: 1px darkgray solid ;
     text-align: center;
+    height: auto;
 }
 
 #spot3{

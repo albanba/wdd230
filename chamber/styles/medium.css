@@ -9,17 +9,10 @@
 
 
 
-    .linkedIn{
+    .linkedIn, .instagram{
 
         max-width: 40px;
     }
-
-    .instagram{
-        
-        max-width: 40px;
-    }
-
-
 
     .navigation a{
         
@@ -40,9 +33,9 @@
 
     main{
         
-    
+        display: grid;
         grid-template-columns: 66% 33%;
-        grid-template-rows: repeat(5, 19%);
+        gap: 0.1%;
     }
 
 
@@ -51,9 +44,7 @@
     .hero{
         
         grid-column: 1/3;
-        grid-row: 1;
-     
-        
+        grid-row: 1;     
 
     }
 
@@ -74,9 +65,16 @@
         grid-column: 1/3;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 10px;
-        height: auto;
+        height: 300px;
+        
+        
     }
+
+    #spotlights div{
+        margin: 0%;
+        padding: 0%;
+    }
+
     #join{
         display: block;
         grid-row: 4;

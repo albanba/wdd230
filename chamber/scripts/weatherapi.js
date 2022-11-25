@@ -1,7 +1,7 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Turrialba,CostaRica&units=imperial&appid=270e38ed066873b2c1c99cd439fcfcac';
 const mph = document.querySelector('#mph');
 const condition = document.querySelector('#condition');
@@ -36,6 +36,7 @@ async function apiFetch() {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     
+   
     condition.textContent = desc;
     console.log(desc);
   }
