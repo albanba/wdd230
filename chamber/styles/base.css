@@ -131,7 +131,7 @@ main{
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
     display: flex;
     flex-direction: column;
-    gap: 0.9%;
+    
     
 }
 

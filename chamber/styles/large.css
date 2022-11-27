@@ -53,9 +53,10 @@
     }
 
     main{
-        
-        grid-template-columns: 24% 50% 24%;
+        display: grid;
+        grid-template-columns: 24.5% 50% 24.5%;
         grid-template-rows: repeat(3,auto);
+        
     }
 
     .mainDiscover img:hover  {box-shadow: 0 0 70px #333;}
@@ -84,6 +85,14 @@
     #spotlights{
         grid-row: 1/4;
         grid-column: 3;
+        height: auto;
+        width: 100%;
+        padding: 0%;
+        
+    }
+
+    #spotlights div{
+        padding: 0%;
         
     }
 
