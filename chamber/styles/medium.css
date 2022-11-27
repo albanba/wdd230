@@ -142,6 +142,13 @@
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 125px;
         align-items: center;
+        justify-items: center;
+        
+    }
+
+    .list h2, p, a{
+        font-size: small;
+        text-align: center;
     }
 
   

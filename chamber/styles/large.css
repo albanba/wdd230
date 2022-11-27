@@ -164,6 +164,8 @@
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 125px;
         align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
    

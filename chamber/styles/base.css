@@ -4,12 +4,12 @@ body{
     
 }
 
-h1, h2, h3, legend {
+h1, h2, h3, legend, button, input{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
 
-p, li, a, td, label, input {    
+p, li, a, td, label {    
     font-family: 'Montserrat', sans-serif;}
 
     h1, h2, h3, span{
@@ -73,7 +73,7 @@ p, li, a, td, label, input {
 
 
 
-header h2{
+header p{
     border: #C2981E solid 3px;
     text-align: center;
     padding-top: 4px;
@@ -315,6 +315,7 @@ input{
     margin-bottom: 15PX;
     margin-left:7px;
     padding: 2rem;
+    cursor: pointer;   
     
 }
 
@@ -393,8 +394,12 @@ textarea{
     background-color: white;
     box-shadow: 0 0 30px #777;
     text-align: center;
+    
 }
 
+.grid a{
+    font-size: small;
+}
 
 .grid img{
     max-width: 175px;
@@ -413,7 +418,7 @@ textarea{
 .directoryButtons{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:center;
     margin-top: 2%;
 
 }
