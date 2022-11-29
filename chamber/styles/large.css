@@ -1,11 +1,11 @@
 @media screen and (min-width: 64em) {
 
-    h1, h2, h3 {
+    h1, h2, h3, legend, button, input{
         font-size: x-large;
     }
 
-    p, a, li, span{
-        font-size: large;
+    p, li, a, td, label{
+        font-size: medium;
     }
     
     .navigation {
@@ -88,7 +88,7 @@
         display: block;
     }
     #join{
-        display: block;
+        display: flex;
         grid-row: 3;
         grid-column: 1;
     }
@@ -144,11 +144,10 @@
     }
 
       /* Join Page */
-      #mainJoin{
+    .mainForm{
         display: grid;
         grid-template-columns: repeat(2, 50% );
         grid-template-rows: auto 100%;  
-        column-gap: 4%;
         align-items: initial;
     
     }

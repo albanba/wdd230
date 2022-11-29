@@ -65,49 +65,53 @@
     </header>
 
      <main class="mainForm">
-        <h1>Join the Chamber Form</h1>
+        <h1>Contact the Chamber</h1>
 
         
             
-        <form method="get" action="thankyou.html">
+        <form method="get" action="formreceived.html">
                 <fieldset>
-                    <legend>Personal Information</legend>
+                    <legend>Contact Information</legend>
                     <label>First Name*<input type="text" name="fname" required></label>
                     <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Business Position<input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
                     <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                     <label>Cell Phone<input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label>Business Name<input type="text" name="company" required></label>
+                    <label>Business Name<input type="text" name="company" placeholder="Company, Inc" required></label>
+                    <label>Comments/Questions<textarea name="description" cols="40" rows="4" ></textarea></label>
                 </fieldset>
     
-                <fieldset>
-                    <legend>Membership Level</legend>
-                    <label><input class="radio" type="radio" name="level" value="NP Membership">NP Membership</label>
-                    <label><input class="radio" type="radio" name="level" value="Bronze Membership">Bronze Membership</label>
-                    <label><input class="radio" type="radio" name="level" value="Silver Membership">Silver Membership</label>
-                    <label ><input class="radio" type="radio" name="level" value="Gold Membership">Gold Membership</label>                  
-                    <label>Business Description<textarea name="description" rows="4" cols="40" ></textarea></label>
-                    <label><input type="hidden" name="date"></label>
+                <fieldset class="radioInputs">
+                    <legend>Contact Preference</legend>
+                    <p>Please choose your contact preference</p>
+                    <label><input class="radio" type="radio" name="Preference" value="phone">Phone</label>
+                    <label><input class="radio" type="radio" name="Preference" value="email">Email</label>
+                                 
+                    <p>The Turrialba Chamber of Commerce will not sell your contact or email information.
+                        In order to serve your request, our office shares information with chamber member businesses who can provide you with additional information. 
+                        Please indicate below if we may share your request for information:</p>
+                    
+                        <label><input class="radio" type="radio" name="release" value="yes">Yes, you may release this information.</label>
+                    <label><input class="radio" type="radio" name="release" value="no">No, please do not release this information.</label>
                 </fieldset>
+                
     
-                <input class="button" type="submit" value="Join Now">
+                <input class="button" type="submit" value="Contact Us Now">
     
         </form>   
 
         <div class="chartForm">
-            <h1>Membership Levels</h1>
-
-            <h2>NP Membership</h2>
-            <p><b>$0 Monthly Fee</b> - Includes 5% discounts for training, and events. </p>
+            <h1>Visit Us</h1>
           
-            <h2>Bronze Membership</h2>
-            <p><b>$5 Monthly Fee</b> - Includes 10% discounts for training, and events. </p>
+            <p><b>Barrio Tomás Guardia</b>, Turrialba, Cartago, Costa Rica</p>
+          
+            <h1>Points of Contact</h1>
+            <p><b>Alban Barrantes</b><br> President and CEO<br> (506)2253-0149, ext. 104  </p>
 
-            <h2>Silver Membership</h2>
-            <p><b>$7 Monthly Fee</b> - Includes 10% discounts for training, advertising, and events. </p>
+            
+            <p><b>Rocio Mora</b><br>Advertising<br>(506)2253-0149, ext. 105 </p>
 
-            <h2>Gold Membership</h2>
-            <p><b>$10 Monthly Fee</b> - Includes 15% discounts for training, advertising, and events. </p>
+            
+            <p><b>Kenneth Salas</b><br>Customer Service<br>(506)2253-0149, ext. 106 </p>
 
         </div>
         
@@ -147,7 +151,7 @@
     
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburguer.js"></script>
-    <script src="scripts/joinDate.js"></script>
+    
     
    
 </body>

@@ -7,21 +7,13 @@ body{
 h1, h2, h3, legend, button, input{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    font-size: medium;
 }
 
 p, li, a, td, label {    
-    font-family: 'Montserrat', sans-serif;}
-
-    h1, h2, h3, span{
-        font-size: medium;
-    }
-
-    p, a, li{
-        font-size: small;
-    }
-
-
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
 
 .mainHeader{
     display: flex;
@@ -158,10 +150,16 @@ main{
 
 
 main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     background-color: beige;
     height: 230px;
     padding: 0.8em;
     margin: 0.4em;
+    text-align: center;
 }
 
 
@@ -179,7 +177,7 @@ main div {
     padding: 1rem;
 }
 .hero{
-    
+    display: block;
     position: relative;
 }
 
@@ -189,10 +187,7 @@ main div {
     object-fit: cover;
 }
 
-#event{
-    align-items: center;
-    text-align: center;
-}
+
 
 #weather{
     display: flex;
@@ -201,20 +196,16 @@ main div {
 }
 
 .weatherDiv{
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    justify-content: center;
+  
 }
 
 #weather-icon{
     width: 70%;
 }
 
-#newsRelease{
-    text-align: center;
-}
+
 
 #spotlights{
     
@@ -282,10 +273,12 @@ a:hover {
 
 
 /* Join Form Page */
-#mainJoin{
+
+.mainForm{
     display: flex;  
     flex-direction: column;
     align-items: center;
+    justify-items: center;
 }
 
 
@@ -301,7 +294,6 @@ fieldset{
 }
 
 label, textarea{
-
     display: block;
     margin: 10px;
 }
@@ -312,7 +304,6 @@ label, textarea{
 }
 input{
     display: block;
-    
 }
 
 .button{
@@ -322,29 +313,33 @@ input{
     margin-left:7px;
     padding: 1rem;
     cursor: pointer;   
-    
+    text-decoration: none;
 }
+
+
 
 textarea{
-
-    width: 70%;
+    width: 80%;
+    margin: 0%;
 }
 
-#membership{
-    width: 90%;
+.chartForm{
+    width: 70%;
     height: min-content;
     margin-top: 7%;
     margin-bottom: 7%;
     padding: 2%;
     border: solid 3px #1C2C41;
+    text-align: left;
+    align-items: flex-start;
 }
 
-#membership p{
+.chartForm p{
 
     margin-top: 0;
 }
 
-#membership h2{
+.chartForm h2{
 
     margin-bottom: 0;
 }
@@ -428,3 +423,12 @@ textarea{
     margin-top: 2%;
 
 }
+
+/* Contact Page */
+.radioInputs label {
+    margin: 0%;
+}
+
+.radioInputs p:nth-of-type(2){
+    margin-top: 3em;
+} 
