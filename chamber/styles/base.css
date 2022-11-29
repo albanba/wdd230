@@ -168,14 +168,21 @@ main div {
     position: absolute;
     top: 3%;
     left: 8%;
-    color: white;
+    color:white;
+    background-color: #1C2C41;
+    border-radius: 5px;
+    padding: 4px;
 }
 #joinHero{
     position: absolute;
     bottom: 3%;
     right: 8%;
     padding: 1rem;
+    
 }
+.button:hover {
+    color: white;
+  }
 .hero{
     display: block;
     position: relative;
@@ -209,8 +216,9 @@ main div {
 
 #spotlights{
     
-    display: grid;
-    height: auto;   
+    display: flex;
+    height: auto; 
+    justify-content: space-evenly;  
 }
 
 
@@ -223,10 +231,10 @@ main div {
     
     border: 1px darkgray solid ;
     text-align: center;
-    
+    width: 97%;
 }
 
-#spot3{
+#spotlights div:nth-of-type(3){
     display: none;
 }
 
@@ -314,6 +322,7 @@ input{
     padding: 1rem;
     cursor: pointer;   
     text-decoration: none;
+    border-radius: 5px;
 }
 
 
@@ -402,7 +411,7 @@ textarea{
     font-size: small;
 }
 
-.grid img{
+.grid img, #spotlights img{
     max-width: 175px;
     background-color: #1C2C41;
     

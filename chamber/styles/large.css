@@ -81,10 +81,10 @@
     #spotlights div{
         padding: 0%;
         margin: 0%;
-        width: 97%;
+        
     }
 
-    #spot3{
+    #spotlights div:nth-of-type(3){
         display: block;
     }
     #join{
