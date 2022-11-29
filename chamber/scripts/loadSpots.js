@@ -1,4 +1,5 @@
 
+
 const cards = document.querySelector('.cards');
 
 
@@ -22,6 +23,8 @@ fetch("json/data.json")
 
     while (spots.length < 3){
         let random = Math.floor(Math.random() * orgs.length);
+        
+        console.table(random);
         
         if (orgs[random].membership == "Silver"|| orgs[random].membership == "Gold")
             spots.push(orgs[random])

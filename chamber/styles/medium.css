@@ -103,24 +103,8 @@
     flex-direction: column;
    }
    
-    footer img{
-        
-        max-width: 200px;
-      
-        
-    }
 
-  
-
-    .middleRow{
-        float: left;
-        
-    }
     
-    .last{
-        
-        text-align: center;
-    }
 
     /* Join Page */
     .mainForm{
