@@ -208,6 +208,8 @@ main div {
 
 #weather-icon{
     width: 70%;
+    background-color: #1C2C41;
+    border-radius: 5px;
 }
 
 
@@ -244,6 +246,7 @@ footer{
     text-align: center;
     background-color: #1C2C41;
     color: white;
+    padding: 5px;
 }
 
 
