@@ -1,0 +1,263 @@
+body{
+    margin: auto;
+    max-width: 1200px ;
+    
+}
+
+h1, h2, h3, h4, legend, button, input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+
+p, li, a, td, label {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 1px rgb(177, 174, 174);
+    background-image: url("/images/fruits1200.jpg");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title_social_media{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_social_media h1{
+    font-size:1.5em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em;
+    position: relative;
+    background-color:  #11686C;
+    border-radius: 15px;
+    border: #FFD662 solid;
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+     
+}
+
+.social img{
+    width: 30px;
+    margin: 5px;
+    border: black solid;
+    background-color: beige;
+}
+
+.logo{
+    max-width: 100px;
+    min-width: 85px;
+    background-color: #FFD662;
+    border-radius: 30px;
+    border: #11686C solid;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: #11686C;       
+    list-style: none;
+    margin-top: 0;
+    padding: 1em;
+    box-shadow: 0 0 30px #777;
+    justify-content: space-evenly;
+}
+
+
+.navigation li:first-child {
+	display: block;
+        
+}
+.navigation li:last-child {
+    display: block;
+    
+}    
+.navigation li{
+	display: none;   
+}   
+
+.navigation .ham{
+    border: none;
+}
+
+.navigation a{
+    display: block;
+    padding: 4px;
+	
+	text-decoration: none;
+	color: white;
+    font-size: large;
+    border: #FFD662 solid;
+    border-radius: 15px;
+	
+}
+
+
+
+.navigation a.ham::before {
+	content: " ☰ ";
+    text-align: left;
+        
+}
+
+
+.responsive li {
+	display: block;
+}
+
+
+.responsive a.ham::before {
+	content: "❌ ";
+    
+}
+
+.responsive li:last-child {
+    display: none;
+}   
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 13px;
+  }
+
+
+.call_to_action{
+    border: #F19110 solid 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #777;
+}
+
+.call_to_action img{
+    width: 100%;
+}
+
+.call_to_action a{
+    padding: 4px;
+	background-color: #11686C;
+	text-decoration: none;
+	color: white;
+    font-size: large;
+    border: #FFD662 solid;
+    border-radius: 15px;
+}
+
+.weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: #F19110 solid 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #777;
+   
+}
+
+#forecast{
+    border-top:  #F19110 solid 2px;
+    padding: 1em;
+}
+  
+.weather h2{
+    grid-column: 1/3;
+    
+}
+
+.weather h2, h3{
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+}
+  #w-icon{
+    width: 80%;
+    background-color:  #6AC5C7;
+    align-self: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+  #temp{
+    font-size: 4em;
+    color: white;
+    background-color:  #F19110;
+    margin-right: 10px;
+    border-radius: 10px;
+ }
+
+
+
+  main div{
+    margin:5px;
+    padding: 5px;
+    border: #F19110 solid 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #777;
+}
+
+.coasts img{
+    width: 100%;
+}
+
+.coasts div h2{
+    margin-top: 0;
+}
+
+.coasts div p{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: #FFD662;
+    color: #11686C;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 0 30px #777;
+}
+
+footer button{
+    color:black;
+    background-color:#6AC5C7;
+    padding: 0.4em;
+    border-radius: 8px;
+    
+}
+
+.business_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+

@@ -1,0 +1,75 @@
+@media screen and (min-width: 64em) {
+    h1, h2, h3, h4, legend, button, input{
+        font-size: 2em;
+    }
+
+    p, li, a, td, label {    
+        font-size: 1em;
+    }
+
+    .logo{
+        max-width: 150px;
+    }
+
+    /* navigation bar */
+    .navigation li{
+        display: flex;   
+    }  
+
+    .navigation li:last-child {
+        display: none;
+    }
+
+    .navigation li:first-child {
+        display: none;     
+    }
+    
+    
+    /* home page grid */
+    main{
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main div{
+        margin: 20px;
+    }
+
+    .call_to_action{
+        grid-column: 1;
+        grid-row: 1/2;
+        
+    }
+
+    .call_to_action a{
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        
+        }
+         @keyframes blink-animation {
+        to {
+        visibility: hidden;
+        }
+        }
+        @-webkit-keyframes blink-animation {
+        to {
+        visibility: hidden;
+        }
+    }
+
+    .coasts{
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+
+    .weather{
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+
+    .drink_counter{
+        grid-column: 1/3;
+    }
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bountiful Foods</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alban Barrantes">
+    <meta name="description" content="Fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&amp;display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+<header>
+    <img class = "logo" src="/images/place_holder.jpg" alt="logo">
+    <div class = "title_social_media">
+        <h1>Bountiful Foods</h1>
+        <div class = "social">
+            <img src="/images/place_holder.jpg" alt=""><img src="/images/place_holder.jpg" alt=""><img src="/images/place_holder.jpg" alt="">
+        </div>
+    </div> 
+    
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#"></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a class = "blink" href="/fresh.html">Make Your Own Fruit Drink Mix!</a></li>
+    </ul>
+</nav>
+
+<main>
+  <form> 
+    <label>First Name*<input type="text" name="fname" required></label>
+    <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+    <label>Cell Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+    
+    <label>#1 fruit:
+        <select name="#1 Fruit" class="option1"></select>
+    </label>
+
+    <label>#2 fruit:
+        <select name="#2 Fruit" class="option2"></select>
+    </label> 
+
+    <label>#3 fruit:
+        <select name="#3 Fruit" class="option3"></select>
+    </label>           
+            
+    <textarea name="instructions" id="instructions" cols="30" rows="10"></textarea> 
+    <label><input type="submit" value="Order now"></label>
+</form>  
+
+<div>
+
+</div>
+    
+</main>
+
+
+<footer>
+    <h4>Contact Us</h4>
+    <p>If you have questions about our products, points of service, or our company in general, feel free to contact us</p>
+    <button>Contact Us</button>
+    <section class="business_contact">
+        <p>Carlsbad, CA 92018 USA</p>
+        <p>Ph: +1 760-2530000</p>
+    </section>
+</footer>
+
+<script src="scripts/fruits_list.js"></script>
+<script src="/scripts/hamburguer.js"></script>
+</body>
